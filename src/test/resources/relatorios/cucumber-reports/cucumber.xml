@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="46.071975">
+    <testcase classname="Preencher os campos do formulário com as seguintes informações" name="Preencher os campos do formulário, Clicar no botão Save, Validar a mensagem e Fechar o browser" time="11.956276">
+        <system-out><![CDATA[Given que eu acesso o site  grocerycrud.....................................passed
+When opto por mudar o valor da combo para Bootstrap V4 Theme................passed
+And clico no botão Add Customer.............................................passed
+And opto por preencher todos os campos do formulário........................passed
+And Clicar no botão Save....................................................passed
+Then Validar a "Mensagem"...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Preencher os campos do formulário voltar pra lista e deletar o Teste Sicredi" name="Preencher os campos do formulário, Clicar no botão Save, voltar pra lista e excluir o nome inserido" time="34.115699">
+        <system-out><![CDATA[Given que eu acesso o site  grocerycrud.....................................passed
+When opto por mudar o valor da combo para Bootstrap V4 Theme................passed
+And clico no botão Add Customer.............................................passed
+And opto por preencher todos os campos do formulário........................passed
+And Clicar no botão Save....................................................passed
+And opto por clicar no link Go back to list.................................passed
+And opto por clicar na coluna Search Name e digitar o conteúdo do Name Teste Sicredi.passed
+And opto por clicar no checkbox abaixo da palavra Actions...................passed
+And opto por clicar no botão Delete.........................................passed
+And valido o Texto..........................................................passed
+And opto por clicar no botão Delete da popup................................passed
+Then valido a mensagem "Your data has been successfully deleted from the database.".passed
+]]></system-out>
+    </testcase>
+</testsuite>
